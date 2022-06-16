@@ -35,3 +35,4 @@ branch and all changes merge to new branch->git merge main -m 'description'
 26.git pull = (git fetch + git pull)
 *************************************************
 *************************************************
+hello git
