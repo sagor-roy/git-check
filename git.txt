@@ -1,0 +1,30 @@
+1.folder location->pwd
+2.folder create->mkdir
+3.file create->touch filename.ext
+4.folder all files see->ls
+5.loacal dir to stage->git add --all or -A (target all files and any folder to stay)
+6.current directory to target->git add .
+7.git add * (all data up to stage but any files to deleted them up not stage)
+8.individual files up to stage->git add text.txt or git add directory/text.txt
+9.extension file to target->git add *.extension
+10.stage to local or working directory->git reset
+11.stage to up commit->git commit -m 'description'
+12.already you have to commit but you still rollback to before stage->git reset HEAD~
+13.manualy delete any file and you have rollback this file but not any change up to stage->git reset --hard
+14.any files delete with up to stage->git rm fileName.ext
+15.somehow any files to delete and it rollback then files to 
+change and again this file to remove.you can't remove this file cause you have already change this file.
+you actually delete this file with change->git rm fileName.ext -f
+16.any folder remove->git rm folderName
+17.all branch with current branch show->git branch
+18.create new branch->git branch BranchName
+19.switched to any branch->git checkout BranchName
+20.suddently you have to change between main and new 
+branch and all changes merge to new branch->git merge main -m 'description'
+(actually main branches all change add to new branch)
+21.The other branch change merge to main branch->git merge branchName -m 'description'
+22.suddently once file working others then you have to conflict.
+23.all update up to remote repository->git push origin main or your other branch to stay
+24.you fetch to changes from remote repository->git fetch
+25.you added change to your working directory then->git merge
+26.git pull = (git fetch + git pull)
