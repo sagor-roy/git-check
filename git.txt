@@ -33,3 +33,5 @@ branch and all changes merge to new branch->git merge main -m 'description'
 24.you fetch to changes from remote repository->git fetch
 25.you added change to your working directory then->git merge
 26.git pull = (git fetch + git pull)
+*************************************************
+*************************************************
